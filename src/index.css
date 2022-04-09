@@ -43,16 +43,36 @@ p {
   font-family: var(--font-family-two);
 }
 
-h1 {
+.header1 {
   font-size: 1.9vw;
+  font-weight: bolder;
+  font-family: var(--font-family-one);
+}
+
+.header2 {
+  font-size: 1.5vw;
   font-weight: bold;
   font-family: var(--font-family-one);
 }
 
-h2 {
-  font-size: 1.7vw;
+.header3 {
+  font-size: 1.3vw;
   font-weight: bold;
   font-family: var(--font-family-one);
+}
+
+.loc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 1.0vw;
+  font-weight: bold;
+  font-family: var(--font-family-one);
+}
+
+.loc1 {
+margin-left: 25%;
+flex-wrap: nowrap;
 }
 /* body end */
 
@@ -85,7 +105,13 @@ header a {
 /* header section > navigation start */
 header nav {
   overflow: auto;
-  margin: 20px;
+  margin: 5px;
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.7vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: var(--font-family-one);
 }
 
 header nav ul {
@@ -97,13 +123,15 @@ header nav ul {
 }
 
 header nav ul li a {
-  padding: 50px 20px 0 0;
   text-decoration: none;
   color: var(--secondary-color);
   font-weight: bold;
   font-size: 1.7vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  font-family: var(--font-family-one);
 }
+
+
 /* header section > naviration end */
 /* Header section End */
 
@@ -432,10 +460,152 @@ input:focus:hover {
 }
 /* projects section end */
 
-/* contact info starts */
-footer {
+
+/* resume section start */
+.resume-section {
   display: flex;
   background: var(--primary-color);
+}
+
+.resume-box {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+}
+.resume {
+  flex: 1 0 0;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+}
+
+.employment {
+  flex: 1 0 0;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: auto;
+}
+
+.job {
+  flex: 1 0 0;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+}
+
+.resume img {
+  float: left;
+  max-height: 200px;
+  max-width: 200px;
+  margin: 20px;
+}
+
+.resume h1 {
+  margin: 20px;
+  font-family: var(--font-family-one);
+}
+
+.resume p {
+  margin: 20px;
+}
+.resources a {
+  text-decoration: none;
+  color: black;
+}
+
+.resources, .f-resources {
+  display: flex;
+  flex-direction: row;
+}
+
+.subsources, .f-sources {
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  margin: 3px;
+}
+
+.sub1,.duty1, .f-1{
+  padding-right: 3px;
+  margin-right: 3px;
+}
+
+.sub2, .duty2, .f-2{
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.all-duties {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.duties {
+  display: flex;
+  flex-direction: row;
+}
+
+/* resume section end */
+
+
+/* contact info starts */
+.footer-section {
+  display: flex;
+  background: var(--primary-color);
+  display: flex;
+  justify-content: center;
+}
+
+.footer-box {
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+}
+.footer {
+  flex: 1 0 0;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+}
+
+.f-resources {
+  display: flex;
+  justify-content: center;
 }
 
 /* media queries for smaller screens start */

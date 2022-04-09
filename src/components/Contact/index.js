@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
@@ -42,7 +41,7 @@ function Contact() {
 
   return (
     <section className="contact-section">
-      <div id="contactme" class="contact-box">
+      <div id="contactme" className="contact-box">
         <div>
           <h1>contact me</h1>
         </div>

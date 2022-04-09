@@ -3,33 +3,37 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Contact");
+  const [currentPage, setCurrentPage] = useState("Resume");
 
   const renderPage = () => {
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Project") {
-      return <Project />;
-    }
-    if (currentPage === "Contact") {
-      return <Contact />;
+    switch (currentPage) {
+      case "Resume":
+        return <Resume />;
+      case "Project":
+        return <Project />;
+      case "Contact":
+        return <Contact />;
+      default:
+        return <About />;
     }
   };
-
-  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <div>
       <div>
-        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+        <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </div>
-      <section class="hero"></section>
-      <section>
-        {renderPage()}
-      </section>
+      <div>
+        <section class="hero"></section>
+        <section>{renderPage(currentPage)}</section>
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

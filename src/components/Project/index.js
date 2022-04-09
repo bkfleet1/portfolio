@@ -3,13 +3,13 @@ import imgRepo from "../../assets/images/code.png";
 import imgDeploy from "../../assets/images/site.png";
 
 function Project() {
-  [
+ const projList = [
     {
       pname: "Chit Chat",
       pimage: "chitchat.png",
       palt: "user accessibility website design",
       description: "Chit Chat is a mobile-responsive, social media platform on which users can post messages and pictures - known as Shout Outs. Anyone can view Shout Outs, including unregistered users, but only registered users can create, update, and delete them. Additionally, registered users can add comments & rate content shared by others. Chit Chat is my second multi-developer project and employs MVC design, as well as leverages MySQL, RESTful APIs, and user session management with cookies.",
-      deploy: "https://chitchat2022.herokuapp.com/​",
+      deploy: "https://chitchat2022.herokuapp.com/",
       respository: "https://github.com/mssjhu9/social-junk"
     },
     {
@@ -44,10 +44,12 @@ function Project() {
       deploy: "/",
       repository: "/"
     }
-  ].map(({pname, pimage, palt, description, deploy, repository}) => {
+  ]
+  
+  projList.map(({pname, pimage, palt, description, deploy, repository}) => {
 
   return (
-          <div class="projects">
+          <div className="projects">
             <a href={deploy} target="_blank" rel="noreferrer">
               <img
                 src={require(`../../assets/images/${pimage}`)}
@@ -58,7 +60,7 @@ function Project() {
             <p>
               {description}
             </p>
-            <div class="project-links">
+            <div className="project-links">
               <a href={deploy} target="_blank" rel="noreferrer">
                 <img
                   src={imgDeploy}
@@ -67,7 +69,7 @@ function Project() {
                 view deployed site
               </a>
             </div>
-            <div class="project-links">
+            <div className="project-links">
               <a href={repository} target="_blank" rel="noreferrer">
                 <img
                   src={imgRepo}

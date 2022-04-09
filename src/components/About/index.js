@@ -2,17 +2,17 @@ import React from 'react';
 import profileImage from '../../assets/images/bkelley.png';
 function About() {
   return (
-<section class="about-section">
-      <div id="aboutme" class="about-box">
+<section className="about-section">
+      <div id="aboutme" className="about-box">
         <div>
           <h1>about me</h1>
         </div>
 
-        <div class="about">
+        <div className="about">
           <img
             src={`${profileImage}`}
             alt="Brad Kelley"
-            class="services-img"
+            className="services-img"
           />
           <p>
             My name is Brad Kelley. I have over 25-years of experience as a
@@ -25,7 +25,7 @@ function About() {
             platform. As the firms CTO, I led the firm's Technology Consulting
             Services & Cloud Services business lines, which provided advisory
             and technical services as well as SaaS and IaaS.
-          </p>
+          </p>  
           <p>
             In 2020, I departed Mercury to pursue a long-time dream of becoming
             a software developer, creating native web applications with

@@ -5,6 +5,7 @@ Given a single-page application portfolio for a web developer
 2. When I view the header, then I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
 3. When I view the navigation titles, then I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
 4. When I click on a navigation title, then I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+
 5. When I load the portfolio the first time, then the About Me title and section are selected by default
 6. When I am presented with the About Me section, then I see a recent photo or avatar of the developer and a short bio about them
 7. When I am presented with the Portfolio section, then I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
@@ -36,7 +37,7 @@ JavaScript - <FontAwesomeIcon icon="fa-brands fa-js" />
 JQuery - 
 Visual Studio - 
 npm - <i class="fa-brands fa-npm"></i>
-MySQL - 
+MySQL - <FontAwesomeIcon icon="fa-solid fa-database" />
 MS SQL - 
 Postgres - 
 Oracle - 
