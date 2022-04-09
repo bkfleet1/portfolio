@@ -488,6 +488,61 @@ input:focus:hover {
   margin: 10px;
 }
 
+.proficient {
+  flex: 1 0 0;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+}
+
+.proficient-list {
+  flex: 1 0 0;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 15px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+}
+
+.proficiencies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  /* flex: 1 1 0; */
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  background: var(--background-two);
+  color: var(--primary-secondary);
+  font-family: var(--font-family-one);
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.imoji {
+  font-size: 2.0vw;
+  text-align: center;
+}
+
+.skill-name {
+  font-size: .9vw;
+  font-family: var(--font-family-two);
+  text-align: center;
+}
+
 .employment {
   flex: 1 0 0;
   margin: 10px;

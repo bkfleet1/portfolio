@@ -1,8 +1,14 @@
 import React from "react";
 import profileImage from "../../assets/images/bkelley.png";
 import resumeDoc from "../../assets/documents/resume.pdf";
+import Proficiency from "../Proficiency";
+
 
 function Resume() {
+
+  const renderPage = () => {
+    return <Proficiency />};
+
   return (
     <section className="resume-section">
       <div id="myresume" className="resume-box">
@@ -80,7 +86,6 @@ function Resume() {
             </div>
           </div>
         </div>
-
         <div>
           <div className="resume">
             <img
@@ -115,6 +120,13 @@ function Resume() {
             </div>
           </div>
 
+          <div className="proficient">
+            <div className="header1">technical proficiency</div>
+            <div className="proficient-list">
+              {renderPage(Proficiency)}
+          </div>
+          </div>
+          
           <div className="employment">
             <div className="header1">employment history</div>
             <div className="jobs">
