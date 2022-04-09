@@ -7,7 +7,7 @@ function Footer() {
             <div className="f-resources">
               <div className="f-sources">
                 <div className="f-1">
-                  <i class="fa-regular fa-envelope"></i>
+                  <i className="fa-regular fa-envelope"></i>
                 </div>
                 <div className="f-2">
                   <a href="mailto: bradkelleytech@gmail.com">
@@ -18,7 +18,7 @@ function Footer() {
   
               <div className="f-sources">
                 <div className="f-1">
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </div>
                 <div className="f-2">
                   <a
@@ -33,7 +33,7 @@ function Footer() {
   
               <div className="f-sources">
                 <div className="f-1">
-                  <i class="fa-brands fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </div>
                 <div className="f-2">
                   <a
@@ -48,7 +48,7 @@ function Footer() {
   
               <div className="f-sources">
                 <div className="f-1">
-                  <i class="fa-brands fa-stack-overflow"></i>
+                  <i className="fa-brands fa-stack-overflow"></i>
                 </div>
                 <div className="f-2">
                   <a

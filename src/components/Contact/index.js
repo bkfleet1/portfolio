@@ -43,7 +43,7 @@ function Contact() {
     <section className="contact-section">
       <div id="contactme" className="contact-box">
         <div>
-          <h1>contact me</h1>
+          <div className="header1">contact me</div>
         </div>
         <div className="contact">
           <div className="cform">
@@ -93,7 +93,7 @@ function Contact() {
                 <div className="formText"></div>
                 <div>
                   <button
-                    className="btn-primary"
+                    className="btns-primary"
                     data-testid="button"
                     type="submit"
                   >
@@ -118,7 +118,7 @@ function Contact() {
                 New Waverly, TX <br />
                 77358 <br />
                 Email:
-                <a href="mailto: bradkelleytech@gmail.com">
+                <a href="mailto: bradkelleytech@gmail.com" className="emails">
                   {" "}
                   bradkelleytech@gmail.com
                 </a>

@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/images/logo.png";
 
 function Nav(props) {
-  const pages = ["About", "Project", "Contact", "Resume"];
+  const pages = ["About Me", "Project", "Contact", "Resume"];
   return (
     <header>
       <a href="/">
@@ -12,15 +12,14 @@ function Nav(props) {
         <ul className="nav nav-row">
           {pages.map((page) => (
             <li className="nav-item" key={page}>
-              <a
-                href={page}
+              <button
                 onClick={() => props.setCurrentPage(page)}
-                className={
+                className={`nav-b ${
                   props.currentPage === page ? "nav-link active" : "nav-link"
-                }
+                }`}
               >
                 {page.toLowerCase()}
-              </a>
+              </button>
             </li>
           ))}
         </ul>

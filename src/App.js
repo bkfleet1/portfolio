@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Resume");
+  const [currentPage, setCurrentPage] = useState("About Me");
 
   const renderPage = () => {
     switch (currentPage) {
@@ -29,7 +29,7 @@ function App() {
         <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       </div>
       <div>
-        <section class="hero"></section>
+        <section className="hero"></section>
         <section>{renderPage(currentPage)}</section>
       </div>
       <div>

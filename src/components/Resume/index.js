@@ -20,7 +20,7 @@ function Resume() {
           <div className="resources">
             <div className="subsources">
               <div className="sub1">
-                <i class="fa-solid fa-download"></i>
+                <i className="fa-solid fa-download"></i>
               </div>
               <div className="sub2">
                 <a href={resumeDoc} target="_blank" rel="noreferrer">
@@ -31,7 +31,7 @@ function Resume() {
 
             <div className="subsources">
               <div className="sub1">
-                <i class="fa-regular fa-envelope"></i>
+                <i className="fa-regular fa-envelope"></i>
               </div>
               <div className="sub2">
                 <a href="mailto: bradkelleytech@gmail.com">
@@ -42,7 +42,7 @@ function Resume() {
 
             <div className="subsources">
               <div className="sub1">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
               </div>
               <div className="sub2">
                 <a
@@ -57,7 +57,7 @@ function Resume() {
 
             <div className="subsources">
               <div className="sub1">
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </div>
               <div className="sub2">
                 <a
@@ -72,7 +72,7 @@ function Resume() {
 
             <div className="subsources">
               <div className="sub1">
-                <i class="fa-brands fa-stack-overflow"></i>
+                <i className="fa-brands fa-stack-overflow"></i>
               </div>
               <div className="sub2">
                 <a
@@ -136,11 +136,11 @@ function Resume() {
                 <div className="header3">Mercury Associates, Inc.</div>
                 <div className="loc">
                   <div className="time">
-                    <i class="fa-regular fa-calendar-days"></i> April 2002 –
+                    <i className="fa-regular fa-calendar-days"></i> April 2002 –
                     March 2020
                   </div>
                   <div className="loc1">
-                    <i class="fa-solid fa-location-dot"></i> Houston, TX
+                    <i className="fa-solid fa-location-dot"></i> Houston, TX
                   </div>
                 </div>
                 <div className="all-duties">
@@ -182,11 +182,11 @@ function Resume() {
                 <div className="header3">Maximus, Inc.</div>
                 <div className="loc">
                   <div className="time">
-                    <i class="fa-regular fa-calendar-days"></i> April 1999 –
+                    <i className="fa-regular fa-calendar-days"></i> April 1999 –
                     March 2002
                   </div>
                   <div className="loc1">
-                    <i class="fa-solid fa-location-dot"></i> Rockville, MD
+                    <i className="fa-solid fa-location-dot"></i> Rockville, MD
                   </div>
                 </div>
                 <div className="all-duties">
@@ -210,11 +210,11 @@ function Resume() {
                 <div className="header3">Sarasota County Government</div>
                 <div className="loc">
                   <div className="time">
-                    <i class="fa-regular fa-calendar-days"></i> May 1995 – April
+                    <i className="fa-regular fa-calendar-days"></i> May 1995 – April
                     1999
                   </div>
                   <div className="loc1">
-                    <i class="fa-solid fa-location-dot"></i> Sarasota, FL
+                    <i className="fa-solid fa-location-dot"></i> Sarasota, FL
                   </div>
                 </div>
                 <div className="all-duties">
