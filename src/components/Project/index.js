@@ -57,14 +57,14 @@ function Project() {
   
 
   return (
-    <section class="projects-section">
-    <div id="projects" class="projects-box">
+    <section className="projects-section">
+    <div id="projects" className="projects-box">
       <div>
         <div className='header1'>projects</div>
       </div>
-      <div class="projects-group">
+      <div className="projects-group">
     {projList.map((proj) => (
-          <div className="projects" key={proj}>
+          <div className="projects" key={proj.pname}>
             <div className='pdesc'>
             <a href={proj.deploy} target="_blank" rel="noreferrer">
               <img

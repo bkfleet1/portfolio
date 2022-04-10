@@ -108,8 +108,6 @@ function Contact() {
               <iframe
                 title="contact map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12182.30520634488!2d-95.2901767!3d30.5691036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1561060983193!5m2!1sen!2sus"
-                frameborder="0"
-                allowfullscreen
               ></iframe>
             </div>
             <div>
