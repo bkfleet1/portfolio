@@ -93,7 +93,7 @@ header {
 
 /* header section > logo */
 header img {
-  width: 350px;
+  height: 60px;
   border: none;
 }
 
@@ -175,8 +175,8 @@ header nav ul li a {
 
 .about img {
   float: left;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width: 150px;
   margin: 20px;
 }
 
@@ -589,8 +589,8 @@ input:focus:hover {
 
 .resume img {
   float: left;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width: 150px;
   margin: 20px;
 }
 
