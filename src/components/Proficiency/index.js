@@ -107,6 +107,12 @@ function Proficiency() {
       </div>
       <div className="skill">
         <div className="imoji">
+        <i class="fa-solid fa-rotate-right"></i>
+        </div>
+        <div className="skill-name">Apollo</div>
+      </div>
+      <div className="skill">
+        <div className="imoji">
           <i className="fa-brands fa-node"></i>
         </div>
         <div className="skill-name">Node</div>
@@ -158,6 +164,12 @@ function Proficiency() {
           <i className="fa-solid fa-magnifying-glass"></i>
         </div>
         <div className="skill-name">SQL</div>
+      </div>
+      <div className="skill">
+        <div className="imoji">
+        <i class="fa-solid fa-circle-nodes"></i>
+        </div>
+        <div className="skill-name">Graphql</div>
       </div>
       <div className="skill">
         <div className="imoji">
