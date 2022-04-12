@@ -533,29 +533,41 @@ input:focus:hover {
 }
 
 .skill {
-  /* flex: 1 1 0; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  vertical-align: middle;
   margin: 10px;
   border-radius: 8px;
   box-shadow: var(--box-shadow);
-  padding: 3px;
+  padding-top: 3px;
   background: var(--background-two);
   color: var(--primary-secondary);
   font-family: var(--font-family-one);
   width: 100px;
   height: 100px;
-  text-align: center;
-  vertical-align: middle;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
 }
 
 .imoji {
   font-size: 1.8vw;
   text-align: center;
+  align-content: center;
+  vertical-align: middle;
+  margin-top: 15%;
+
 }
 
 .skill-name {
   font-size: 0.8vw;
   font-family: var(--font-family-two);
   text-align: center;
+  align-content: center;
+  vertical-align: middle;
+  margin-bottom: 10%;
 }
 
 .employment {
