@@ -3,7 +3,15 @@ import imgRepo from "../../assets/images/code.png";
 import imgDeploy from "../../assets/images/site.png";
 
 function Project() {
- const projList = [
+  const projList = [
+    {
+      pname: "House Plant Heaven",
+      pimage: "houseplant.png",
+      palt: "e-commerce progressive web application",
+      description: "House Plant Heaven is a mobile-responsive, e-commerce platform in which users can browse and purchase a wide variety of organic, responsibly raised house plants and flowers. Customer's shopping experience is enhanced with intuitive features, like product filter buttons, one-step signup and login process, and a user-friendly, secure payment process (using Stripe payment). The platform also leverages a leading-edge tech stack, using packages, such as MongoDB, Mongoose, Apollo, Express, React, and Node, thus ensuring a durable solution lifecycle. Additonally, the application is a progressive web application (PWA), allowing users to continue to shop while network service is unavailable.",
+      deploy: "https://houseplant22.herokuapp.com",
+      repository: "https://github.com/mssjhu9/mern-react",
+    },
     {
       pname: "Chit Chat",
       pimage: "chitchat.png",
@@ -53,55 +61,55 @@ function Project() {
       repository: "https://github.com/bkfleet1/run-buddy/",
     }
   ];
-  
-  
+
+
 
   return (
     <section className="projects-section">
-    <div id="projects" className="projects-box">
-      <div>
-        <div className='header1'>projects</div>
+      <div id="projects" className="projects-box">
+        <div>
+          <div className='header1'>projects</div>
+        </div>
+        <div className="projects-group">
+          {projList.map((proj) => (
+            <div className="projects" key={proj.pname}>
+              <div className='pdesc'>
+                <a href={proj.deploy} target="_blank" rel="noreferrer">
+                  <img
+                    src={require(`../../assets/images/${proj.pimage}`)}
+                    alt={proj.palt}
+                  />
+                </a>
+                <div className='header2'>{proj.pname}</div>
+                <p>
+                  {proj.description}
+                </p>
+              </div>
+              <div className='plinks'>
+                <div className="project-links">
+                  <a href={proj.deploy} target="_blank" rel="noreferrer">
+                    <img
+                      src={imgDeploy}
+                      alt={proj.palt}
+                    />
+                    {" "}view deployed site
+                  </a>
+                </div>
+                <div className="project-links">
+                  <a href={proj.repository} target="_blank" rel="noreferrer">
+                    <img
+                      className='pjimg'
+                      src={imgRepo}
+                      alt={proj.palt}
+                    />
+                    {" "}view code
+                  </a>
+                </div>
+              </div>
+            </div>))}
+        </div>
       </div>
-      <div className="projects-group">
-    {projList.map((proj) => (
-          <div className="projects" key={proj.pname}>
-            <div className='pdesc'>
-            <a href={proj.deploy} target="_blank" rel="noreferrer">
-              <img
-                src={require(`../../assets/images/${proj.pimage}`)}
-                alt={proj.palt}
-              />
-            </a>
-            <div className='header2'>{proj.pname}</div>
-            <p>
-              {proj.description}
-            </p>
-            </div>
-            <div className='plinks'>
-            <div className="project-links">
-              <a href={proj.deploy} target="_blank" rel="noreferrer">
-                <img
-                  src={imgDeploy}
-                  alt={proj.palt}
-                />
-                {" "}view deployed site
-              </a>
-            </div>
-            <div className="project-links">
-              <a href={proj.repository} target="_blank" rel="noreferrer">
-                <img 
-                  className='pjimg'
-                  src={imgRepo}
-                  alt={proj.palt}
-                />
-                {" "}view code
-              </a>
-            </div>
-            </div>
-          </div>))}
-          </div>
-          </div>
-          </section>
+    </section>
   )
 }
 
